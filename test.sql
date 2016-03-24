@@ -108,18 +108,6 @@ INSERT INTO `cities` (`id`, `city`) VALUES
 (641970,	'Черепаново'),
 (641780,	'Новосибирск');
 
-INSERT INTO `departments` (`id`, `name`) VALUES
-(1,	'Финансовый'),
-(2,	'Почтовый '),
-(3,	'Доставка'),
-(101,	'post'),
-(110,	'Уборка'),
-(303,	'postwt');
-
-INSERT INTO `new_table` (`id`, `column`) VALUES
-(1,	'wer'),
-(9,	'value_111');
-
 DROP TABLE IF EXISTS `sections`;
 CREATE TABLE `sections` (
   `parent_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -138,15 +126,4 @@ INSERT INTO `sections` (`parent_id`, `section`) VALUES
 (8,	'Хобби'),
 (9,	'Животные');
 
-INSERT INTO `users` (`id`, `first_name`, `last_name`, `phone`, `department`) VALUES
-(1,	'Ильнар ',	'Гарифуллин',	'123',	1),
-(2,	'Андрей ',	'Иванов',	'234567',	3),
-(3,	'Иванов',	'Алексей',	'Викторович',	3),
-(4,	'1_user',	'1_lastname',	'1_11111',	1),
-(5,	'2_user',	'2_lastname',	'2_22222',	2),
-(9,	'3_user',	'3_lastname',	'3_22222',	3),
-(8,	'3_user',	'3_lastname',	'3_22222',	3),
-(10,	'3_user',	'3_lastname',	'3_22222',	3),
-(11,	'3_user',	'3_lastname',	'3_22222',	3);
-
--- 2016-03-24 11:12:20
+-- 2016-03-24 12:23:03
